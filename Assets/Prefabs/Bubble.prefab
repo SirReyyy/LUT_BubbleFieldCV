@@ -161,3 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1f4ae89c8e584346839b496ff67f938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minTargetScale: 1.2
+  maxTargetScale: 1.2

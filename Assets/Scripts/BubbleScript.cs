@@ -11,14 +11,14 @@ public class BubbleScript : MonoBehaviour
 
     private float elapsedTime; //, rotSpeed;
     private float targetScale, scaleSpeed = 0.5f;
-    private float minTargetScale = 0.8f, maxTargetScale = 1.2f;
-    private float floatHeight, floatSpeed, floatPause = 0.1f;
+    private float minTargetScale = 0.6f, maxTargetScale = 1.2f;
+    private float floatHeight, floatSpeed;
     private bool isMoving = false;
 
     private Vector3 originalPosition;
 
     void Awake() {
-        floatHeight = Random.Range(0.5f, 1.0f);
+        floatHeight = Random.Range(0.5f, 1.5f);
         floatSpeed = Random.Range(0.2f, 0.5f);
         targetScale = Random.Range(minTargetScale, maxTargetScale);
     } //-- Awake end
